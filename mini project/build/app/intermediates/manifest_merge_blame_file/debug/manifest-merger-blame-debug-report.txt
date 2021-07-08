@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.p3"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->F:\flutter apps\mini project\mini project\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->F:\flutter apps\mini project\mini project\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:8:5-65
+22-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:8:22-62
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:9:5-80
+23-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:9:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:10:5-79
+24-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:10:22-77
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+25-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+26    <uses-permission android:name="android.permission.FLASHLIGHT" />
+26-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-69
+26-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-66
+27
+28    <uses-feature android:name="android.hardware.camera" />
+28-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-60
+28-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:11:19-57
+29    <uses-feature android:name="android.hardware.camera.autofocus" />
+29-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-70
+29-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-67
+30
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-68
+31-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-65
+32
+33    <application
+33-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:12:5-33:19
+34        android:name="io.flutter.app.FlutterApplication"
+34-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:13:9-57
+35        android:allowBackup="true"
+35-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6b399c2363bb098ebde1725d903cbda0\core-1.1.0\AndroidManifest.xml:24:18-86
+37        android:configChanges="orientation|keyboardHidden"
+37-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-59
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:15:9-43
+40        android:label="Waiter"
+40-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:14:9-31
+41        android:screenOrientation="portrait"
+41-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-45
+42        android:supportsRtl="true"
+42-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-35
+43        android:theme="@style/Theme.AppCompat.NoActionBar"
+43-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-59
+44        android:windowSoftInputMode="stateAlwaysHidden" >
+44-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-56
+45        <activity
+45-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:16:9-27:20
+46            android:name="com.example.p3.MainActivity"
+46-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:17:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:20:13-163
+48            android:hardwareAccelerated="true"
+48-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:21:13-47
+49            android:launchMode="singleTop"
+49-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:18:13-43
+50            android:theme="@style/LaunchTheme"
+50-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:19:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:22:13-55
+52            <intent-filter>
+52-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:23:13-26:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:24:17-68
+53-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:24:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:25:17-76
+55-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:25:27-74
+56            </intent-filter>
+57        </activity>
+58        <!--
+59             Don't delete the meta-data below.
+60             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+61        -->
+62        <meta-data
+62-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:30:9-32:33
+63            android:name="flutterEmbedding"
+63-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:31:13-44
+64            android:value="2" />
+64-->F:\flutter apps\mini project\mini project\android\app\src\main\AndroidManifest.xml:32:13-30
+65
+66        <activity android:name="com.shinow.qrscan.SecondActivity" />
+66-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-69
+66-->[:qrscan] F:\flutter apps\mini project\mini project\build\qrscan\intermediates\library_manifest\debug\AndroidManifest.xml:27:19-66
+67
+68        <provider
+68-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+69            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+69-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+70            android:authorities="com.example.p3.flutter.image_provider"
+70-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+71            android:exported="false"
+71-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+72            android:grantUriPermissions="true" >
+72-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+73            <meta-data
+73-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+75                android:resource="@xml/flutter_image_picker_file_paths" />
+75-->[:image_picker] F:\flutter apps\mini project\mini project\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+76        </provider>
+77
+78        <activity
+78-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:14:9-19:63
+79            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+79-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:15:13-74
+80            android:configChanges="orientation|keyboardHidden"
+80-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:16:13-63
+81            android:screenOrientation="portrait"
+81-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:17:13-49
+82            android:theme="@style/Theme.AppCompat.NoActionBar"
+82-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:18:13-63
+83            android:windowSoftInputMode="stateAlwaysHidden" />
+83-->[com.github.leyan95:android-zxingLibrary:0.1.2-PRE] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6339c3b61c782c904660dc00916fa95d\android-zxingLibrary-0.1.2-PRE\AndroidManifest.xml:19:13-60
+84
+85        <provider
+85-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9f7daa8930fa7d78e823a41eb65715a8\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+86            android:name="com.squareup.picasso.PicassoProvider"
+86-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9f7daa8930fa7d78e823a41eb65715a8\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+87            android:authorities="com.example.p3.com.squareup.picasso"
+87-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9f7daa8930fa7d78e823a41eb65715a8\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+88            android:exported="false" />
+88-->[com.squareup.picasso:picasso:2.71828] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9f7daa8930fa7d78e823a41eb65715a8\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+89    </application>
+90
+91</manifest>
